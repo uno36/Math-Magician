@@ -35,6 +35,7 @@
 > HTML
 > JavaScript
 > React
+> Linter set-up
 > with the help of VS Ccode
 
 

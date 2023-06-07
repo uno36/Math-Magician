@@ -16,14 +16,14 @@
 }
 
 .display {
-    padding: 20px;
-    text-align: right;
-    color: #fff;
-    font-size: 30px;
+  padding: 20px;
+  text-align: right;
+  color: #fff;
+  font-size: 30px;
 }
 
 .calculator {
-  background-color: #c6c6c6;  
+  background-color: #c6c6c6;
 }
 
 .functional-buttons {
@@ -57,4 +57,3 @@ button:hover {
 .orange-btn:hover {
   background-color: #e88025;
 }
-

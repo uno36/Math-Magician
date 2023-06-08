@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 import Calculator from './components/calculator.js';
 import QuoteDisplay from './components/QuoteDisplay.js';
 

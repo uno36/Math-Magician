@@ -115,4 +115,6 @@ function Calculator() {
   );
 }
 
+React.Children = 1;
+
 export default Calculator;

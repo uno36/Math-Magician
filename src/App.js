@@ -1,5 +1,6 @@
 import Calculator from './components/calculator.js';
 import QuoteDisplay from './components/QuoteDisplay.js';
+import calculate from './logic/calculate.js';
 
 function App() {
   return (
@@ -9,5 +10,9 @@ function App() {
     </div>
   );
 }
+
+calculate();
+QuoteDisplay();
+Calculator();
 
 export default App;

@@ -33,8 +33,9 @@ body {
 .display {
   padding: 20px;
   text-align: right;
-  color: #fff;
+  color: #ffffff;
   font-size: 30px;
+  background-color: #858694;
 }
 
 .calculator {

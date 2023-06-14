@@ -9,26 +9,28 @@
 }
 
 body {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .Loading,
 .error,
 .quote {
   text-align: center;
-  width: 100%;
-  margin-top: 200px;
+  width: 80%;
   font-family: 'Courier New', Courier, monospace;
   font-weight: 700;
   font-size: 30px;
   padding: 0 5%;
+  margin: 200px auto;
+  background-color: #ffff;
+  box-shadow: 2px 3px 10px;
 }
 
 .display {
   padding: 20px;
   text-align: right;
   color: #fff;
-  font-size: 30px;
+  font-size: 40px;
   background-color: #858694;
 }
 
@@ -38,7 +40,7 @@ body {
 
 .welcome-heading {
   color: #fff;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -52,7 +54,7 @@ header {
 
 .welcome {
   font-family: "Poppins", Arial, Helvetica, sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0;
@@ -83,7 +85,7 @@ header nav a.active:hover {
 }
 
 .layout-heading {
-  margin-left: 2.5%;
+  margin-left: 3.5%;
   font-family: 'Courier New', Courier, monospace;
   font-size: 40px;
   text-transform: uppercase;
@@ -121,7 +123,7 @@ header nav a.active:hover {
 
 button {
   padding: 15px;
-  font-size: 16px;
+  font-size: 30px;
   border: none;
   height: 65px;
   border-radius: 2px;
@@ -138,4 +140,25 @@ button:hover {
 
 .orange-btn:hover {
   background-color: #e88025;
+}
+
+@media only screen and (max-width: 768px) {
+  .layout-heading {
+    display: none;
+  }
+
+  .container {
+    display: block;    
+  }
+
+  .title {
+    margin-bottom: 50px;
+    text-decoration: underline; 
+    text-shadow: 1px 1px #e88025;   
+  }
+
+  .quote {
+    margin-top: 40px;
+  }
+  
 }

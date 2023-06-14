@@ -3,7 +3,6 @@ import {
   RouterProvider,
   Route,
   createRoutesFromElements,
-  Outlet,
 } from 'react-router-dom';
 
 import Home from './components/Homes.js';

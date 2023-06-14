@@ -148,17 +148,16 @@ button:hover {
   }
 
   .container {
-    display: block;    
+    display: block;
   }
 
   .title {
     margin-bottom: 50px;
-    text-decoration: underline; 
-    text-shadow: 1px 1px #e88025;   
+    text-decoration: underline;
+    text-shadow: 1px 1px #e88025;
   }
 
   .quote {
     margin-top: 40px;
   }
-  
 }

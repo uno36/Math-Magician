@@ -49,6 +49,4 @@ const QuoteDisplay = () => {
   return <p className='quote' style={{ color: quoteColor }}>{quote}</p>;
 };
 
-React.Children = 1;
-
 export default QuoteDisplay;

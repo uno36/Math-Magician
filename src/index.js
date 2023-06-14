@@ -9,6 +9,3 @@ root.render(
     <App />
   </React.StrictMode>,
 );
-
-React.Children = 1;
-App();

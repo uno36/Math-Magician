@@ -24,6 +24,8 @@ function Calculator() {
   };
 
   return (
+    <div className="container">
+    <h1 className="title">Let's some do Math!</h1>
     <div className="calculator">
       <div className="display">
         <span>{displayValue}</span>
@@ -112,9 +114,8 @@ function Calculator() {
         </button>
       </div>
     </div>
+    </div>
   );
 }
-
-React.Children = 1;
 
 export default Calculator;
